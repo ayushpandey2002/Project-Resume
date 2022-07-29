@@ -1,0 +1,77 @@
+body{
+    margin: 0px ;
+}
+
+#body-header{
+    background-image: url(images/head_bg1.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;  
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+display: inline-block;
+margin: 0px 12px 12px 0px;
+font-size: 1rem;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 2s;
+
+}
+.nav-menu li a:hover{
+    border-bottom: 1px solid white;
+}
+.horizontal-list li a:hover{
+    color: rgb(44, 144, 194);
+  
+    
+}
+.text-center{
+    text-align: center;
+}
+#name-socil-continer{
+    margin-top: 20vh;
+}
+#my-name{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(219, 6, 247);
+    border-radius: 50%;
+}
+.social-icons li a i:hover{
+   box-shadow: 0px 0px 6px 4px rgba(215,548 ,451 ,11); 
+}
+#about {
+    height: auto;
+    width: 100%;
+    position: relativews;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
